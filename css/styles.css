@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
     color: white;
     display: flex;
 }
@@ -14,6 +13,12 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 12, 45, 0.98) 0%,
+        rgba(0, 24, 90, 0.95) 50%,
+        rgba(0, 36, 125, 0.92) 100%
+    );
 }
 
 .logo-box{
