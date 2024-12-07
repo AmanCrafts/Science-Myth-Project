@@ -98,8 +98,7 @@ body{
 }
 
 .git-button, .explore-button i{
-    margin-right: 5px;
-    
+    margin-right: 5px;   
 }
 
 .explore-button{
@@ -107,9 +106,15 @@ body{
     border: 2px solid #00f7ff;
     padding: 10px 20px;
     border-radius: 50px;
-    
     cursor: pointer;
     text-decoration: none;
     font-weight: 600;
     color: white;
 }
+
+.explore-button:hover, .git-button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 247, 255, 0.1);
+    transition: 0.3s;
+}
+
