@@ -42,6 +42,17 @@ body{
     background-repeat: repeat;
     background-size: 250px 250px;
     z-index: -1;
+    animation: move 30s linear infinite;
+
+}
+
+@keyframes move {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -250px -250px;
+    }
 }
 
 
