@@ -42,7 +42,7 @@ body{
     background-repeat: repeat;
     background-size: 250px 250px;
     z-index: -1;
-    animation: move 30s linear infinite;
+    animation: move 30s linear infinite, twinkle-twinkle-little-star 2s infinite ease-in-out;
 
 }
 
@@ -53,6 +53,15 @@ body{
     to {
         background-position: -250px -250px;
     }
+}
+
+@keyframes twinkle-twinkle-little-star{
+    0%, 100% {
+        opacity: 1;
+      }
+    50% {
+        opacity: 0.3;
+      }
 }
 
 
