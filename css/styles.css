@@ -97,11 +97,17 @@ body{
     color: black;
 }
 
+.git-button, .explore-button i{
+    margin-right: 5px;
+    
+}
+
 .explore-button{
-    background-color: blue;
+    background-color: transparent;
+    border: 2px solid #00f7ff;
     padding: 10px 20px;
     border-radius: 50px;
-    border: none;
+    
     cursor: pointer;
     text-decoration: none;
     font-weight: 600;
